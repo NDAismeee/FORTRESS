@@ -1,3 +1,14 @@
+# python cache
+__pycache__/
+*.pyc
+
+# training outputs
+*.log
+
+# Ignore log files
+src/logs/*
+!src/logs/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
